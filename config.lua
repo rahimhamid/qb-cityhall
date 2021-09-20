@@ -12,3 +12,4 @@ Config.DriverTest = {
 
 Config.DrivingSchool = {
     coords = vector3(232.5,368.7,105.94)
+}
