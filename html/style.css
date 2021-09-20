@@ -61,7 +61,7 @@ body {
     margin: 0 auto;
     top: 10vh;
     border-radius: 1vh;
-    background: rgba(37, 37, 37, 0.418)
+    background: rgba(225, 0, 255, 0.994)
 }
 
 .cityhall-job-page {
@@ -72,7 +72,7 @@ body {
     margin: 0 auto;
     top: 10vh;
     border-radius: 1vh;
-    background: rgba(37, 37, 37, 0.418);
+    background: rgb(255, 0, 234);
 }
 
 .cityhall-option-block {
@@ -91,14 +91,14 @@ body {
 }
 
 .cityhall-option-block:hover {
-    border-bottom: 9px solid #dc143c;
+    border-bottom: 9px solid #ff00bf;
     opacity: 0.9;
 }
 
 .cityhall-option-block > i {
     font-size: 16vh;
     line-height: 21vh;
-    color: #dc143c;
+    color: #ff00ff;
 }
 
 .cityhall-option-block > p {
@@ -120,19 +120,19 @@ body {
 .identity-page-block {
     width: 100%;
     height: 15%;
-    background: #2873A7;
+    background: #ea00ff;
     transition: all 0.1s ease-in-out;
     border-radius: 0.5vh;
     /* border-bottom: 2px solid rgba(255, 255, 255, 0); */
 }
 
 .identity-page-block:hover {
-    background: #ededed;
+    background: #f200ff;
     transition: ease-in 0.3s;
 }
 
 .identity-page-block > p:hover {
-    color: #2873A7;
+    color: #ea00ff;
     transition: ease-in 0.3s;
 }
 
@@ -165,8 +165,8 @@ body {
 }
 
 .identity-selected {
-    border-bottom: 0px solid #fff;
-    border-left: 0.5vh solid #ededed;
+    border-bottom: 0px solid rgb(242, 0, 255);
+    border-left: 0.5vh solid #d400ff;
 }
 
 .request-identity-button {
@@ -177,12 +177,12 @@ body {
     margin: 1vh;
     width: 20vh;
     height: 5vh;
-    background: #28A745;
+    background: #ff00f7;
     border-radius: 0.5vh;
 }
 
 .request-identity-button > p {
-    color: #ededed;
+    color: #e100ff;
     text-align: center;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -205,18 +205,18 @@ body {
 .job-page-block {
     width: 100%;
     height: 5vh;
-    background: #2873A7;
+    background: #ff00e1;
     border-radius: 0.5vh;
     transition: all 0.1s ease-in-out;
     border-bottom: 2px solid rgba(255, 255, 255, 0);
 }
 
 .job-page-block:hover {
-    background: #ededed;
+    background: #b700ff;
 }
 
 .job-page-block > p:hover {
-    color: #2873A7;
+    color: #cc00ff;
 }
 
 .job-page-block > p {
@@ -248,7 +248,7 @@ body {
 }
 
 .apply-job-button > p {
-    color: #ededed;
+    color: #000000;
     text-align: center;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -259,7 +259,7 @@ body {
 }
 
 .job-selected {
-    border-left: 0.5vh solid #ededed;
+    border-left: 0.5vh solid #ff00cc;
 }
 
 .back-to-main {
@@ -269,7 +269,7 @@ body {
     margin: 1vh;
     width: 20vh;
     height: 5vh;
-    background: #dc143c;
+    background: #ff00e1;
     border-radius: 0.5vh;
     transition: all 0.1s linear;
 }
