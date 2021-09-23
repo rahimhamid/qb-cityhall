@@ -20,7 +20,7 @@ body {
     margin: 0 auto;
     top: 15vh;
     background-size: cover;
-    background-color: rgba(23, 23, 23, 80%);
+    background-color: rgb(255 255 255 / 80%);
     border-radius: 4vh;
     box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.226);
 }
@@ -32,14 +32,14 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 6vh;
-    color: #ededed;
+    color: #c700ff;
     line-height: 10vh;
     width: 97vh;
     top: 2vh;
     left: 1.5vh;
     border-radius: 2vh;
     height: 10vh;
-    background: #dc143c;
+    background: #000000;
 }
 
 .cityhall-option-blocks {
@@ -61,7 +61,7 @@ body {
     margin: 0 auto;
     top: 10vh;
     border-radius: 1vh;
-    background: rgba(225, 0, 255, 0.994)
+    background: rgb(255 255 255 / 99%)
 }
 
 .cityhall-job-page {
@@ -72,7 +72,7 @@ body {
     margin: 0 auto;
     top: 10vh;
     border-radius: 1vh;
-    background: rgb(255, 0, 234);
+    background: rgb(255 255 255);
 }
 
 .cityhall-option-block {
@@ -91,18 +91,18 @@ body {
 }
 
 .cityhall-option-block:hover {
-    border-bottom: 9px solid #ff00bf;
+    border-bottom: 9px solid #c700ff;
     opacity: 0.9;
 }
 
 .cityhall-option-block > i {
     font-size: 16vh;
     line-height: 21vh;
-    color: #ff00ff;
+    color: #c700ff;
 }
 
 .cityhall-option-block > p {
-    color: #171717;
+    color: #000000;
     font-weight: 500;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
@@ -120,19 +120,19 @@ body {
 .identity-page-block {
     width: 100%;
     height: 15%;
-    background: #ea00ff;
+    background: #000000;
     transition: all 0.1s ease-in-out;
     border-radius: 0.5vh;
     /* border-bottom: 2px solid rgba(255, 255, 255, 0); */
 }
 
 .identity-page-block:hover {
-    background: #f200ff;
+    background: #000000;
     transition: ease-in 0.3s;
 }
 
 .identity-page-block > p:hover {
-    color: #ea00ff;
+    color: #c700ff;
     transition: ease-in 0.3s;
 }
 
@@ -144,7 +144,7 @@ body {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 0.1vh;
-    color: #ededed;
+    color: #c700ff;
     font-size: 1.6vh;
 }
 
@@ -154,7 +154,7 @@ body {
     right: 0;
     padding: 1vh;
     margin: 4vh;
-    background: rgba(34, 34, 34, 0.75);
+    background: rgb(255 255 255 / 75%)
     border-radius: 1vh;
 }
 
@@ -165,8 +165,8 @@ body {
 }
 
 .identity-selected {
-    border-bottom: 0px solid rgb(242, 0, 255);
-    border-left: 0.5vh solid #d400ff;
+    border-bottom: 0px solid rgb(0 0 0)
+    border-left: 0.5vh solid #ffffff;
 }
 
 .request-identity-button {
@@ -177,12 +177,12 @@ body {
     margin: 1vh;
     width: 20vh;
     height: 5vh;
-    background: #ff00f7;
+    background: #000000;
     border-radius: 0.5vh;
 }
 
 .request-identity-button > p {
-    color: #e100ff;
+    color: #c700ff;
     text-align: center;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -205,18 +205,18 @@ body {
 .job-page-block {
     width: 100%;
     height: 5vh;
-    background: #ff00e1;
+    background: #000000;
     border-radius: 0.5vh;
     transition: all 0.1s ease-in-out;
     border-bottom: 2px solid rgba(255, 255, 255, 0);
 }
 
 .job-page-block:hover {
-    background: #b700ff;
+    background: #000000;
 }
 
 .job-page-block > p:hover {
-    color: #cc00ff;
+    color: #c700ff;
 }
 
 .job-page-block > p {
@@ -227,7 +227,7 @@ body {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 0.1vh;
-    color: #ededed;
+    color: #c700ff;
     font-size: 1.6vh;
 }
 
@@ -239,16 +239,16 @@ body {
     margin: 1vh;
     width: 20vh;
     height: 5vh;
-    background: #28A745;
+    background: #000000;
     border-radius: 0.5vh;
 }
 
 .apply-job-button:hover {
-    background: #28A745;
+    background: #000000;
 }
 
 .apply-job-button > p {
-    color: #000000;
+    color: #c700ff;
     text-align: center;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -259,7 +259,7 @@ body {
 }
 
 .job-selected {
-    border-left: 0.5vh solid #ff00cc;
+    border-left: 0.5vh solid #ffffff;
 }
 
 .back-to-main {
@@ -269,13 +269,13 @@ body {
     margin: 1vh;
     width: 20vh;
     height: 5vh;
-    background: #ff00e1;
+    background: #000000;
     border-radius: 0.5vh;
     transition: all 0.1s linear;
 }
 
 .back-to-main > p {
-    color: #ededed;
+    color: #c700ff;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
